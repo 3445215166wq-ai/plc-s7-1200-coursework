@@ -1,0 +1,12 @@
+# TIA Portal 工程文件按二进制处理，禁止换行符转换（否则会损坏工程）
+*.ap15   binary
+*.ap16   binary
+*.zap15  binary
+*.zap16  binary
+*.plf    binary
+*.idx    binary
+*.pma15_0 binary
+XRef.db  binary
+
+# 文本文件
+*.md     text
